@@ -1990,7 +1990,7 @@
             pin@p37 { function = "input";  termination = "pull_up";    drive_strength_mA = < 8 >; };
             pin@p38 { function = "input";  termination = "pull_up";    drive_strength_mA = < 8 >; };
             pin@p39 { function = "input";  termination = "pull_up";    drive_strength_mA = < 8 >; };
-            pin@p40 { function = "output"; termination = "pull_down"; }; // Camera LED
+            pin@p40 { function = "output"; termination = "no_pulling"; }; // Camera LED
             pin@p41 { function = "output"; termination = "no_pulling"; }; // WL_ON
             pin@p43 { function = "gp_clk"; termination = "pull_down"; }; // WIFI_CLK - Wifi 32kHz output
             pin@p44 { function = "output"; termination = "no_pulling"; }; // Camera shutdown
